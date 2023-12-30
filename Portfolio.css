@@ -85,10 +85,13 @@ nav ul li a:hover {
 }
 
 main hr {
-    border: 0;
-    background: rgb(254, 171, 171);
-    height: 1.5px;
-    margin: 40px 84px;
+    border: 2;
+    border-color: rgb(59, 251, 0) blue rgb(255, 251, 0);
+    border-radius: 20cap;
+    border-width: 1cap;
+    background-color: rgba(193, 218, 242, 0.486);
+    height: 2cap;
+    margin: 84px 90px;
 }
 
 .secondsection h1 {
@@ -104,18 +107,19 @@ main hr {
 
 .secondsection .box {
     background: rgb(106, 0, 255);
-    width: 73vw;
-    height: 2px;
+    width: 80vw;
+    height: 4px;
     margin: 100px 0;
     display: flex;
-    margin-left: 3%;
+    margin-right: 10%;
 }
 
 .secondsection .vertical {
-    height: 93px;
-    width: 1px;
-    background: rgb(106, 0, 255);
+    height: 90px;
+    width: 2px;
+    background: rgb(195, 255, 0);
     margin: 0 100px;
+    margin-left: 8.5%;
 }
 
 .image-top {
@@ -145,7 +149,7 @@ main hr {
 .image-top2 {
     width: 55px;
     position: relative;
-    top: -57px;
+    top: -55px;
     left: -10px;
 }
 
@@ -193,6 +197,71 @@ main hr {
 .image-top4 {
     width: 70px;
     position: relative;
-    top: -75px;
+    top: -73px;
     left: -22px;
+}
+
+.image-top5 {
+    width: 100px;
+    position: relative;
+    top: -75px;
+    left: -55px;
+}
+
+footer {
+    background-color: rgb(152, 201, 250);
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: rgb(240, 239, 239);
+    padding: 23px 0;
+}
+
+ .btnone {
+    padding: 12px;
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+    border-color: aqua;
+}
+
+.btnone:hover {
+    font-size: large;
+    color: blue;
+}
+
+ .btntwo {
+    padding: 12px;
+    background-color: blue;
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 2%;
+    border-color: aqua;
+}
+
+ .btntwo:hover {
+    font-size: large;
+    color: orange;
 }
